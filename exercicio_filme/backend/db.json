@@ -248,6 +248,12 @@
       "nome": "Homem Aranha",
       "genero": "Ficação Cienfica",
       "data": "2000-01-01T00:00:00.000Z"
+    },
+    {
+      "id": "eca1",
+      "nome": "Spider Man",
+      "genero": "Ficcao Cienfica",
+      "data": "2025-02-10T00:00:00.000Z"
     }
   ]
 }

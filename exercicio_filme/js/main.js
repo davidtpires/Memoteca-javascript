@@ -1,6 +1,21 @@
 import ui from "./ui.js"
 import api from "./api.js"
 
+const filmesSet = new Set()
+
+async function adicionarChaveAoFilme() {
+  try {
+    const filmes = await api.buscarFilmes()
+    filmes.forEach( filme => {
+      const chaveFilme = 
+      `${filme.nome.trim().toLowerCase()}-${filme.genero.trim().toLowerCase()}`
+      filmesSet.add(chaveFilme)
+    })
+  } catch (error) {
+    alert('Erro ao adicionar chave ao filme')
+  }
+}
+
 function removerEspacos(string) {
   return string.replaceAll(/\s+/g, '')
 }
@@ -18,6 +33,7 @@ function validarGenero(genero) {
 
 document.addEventListener("DOMContentLoaded", () => {
   ui.renderizarFilmes()
+  adicionarChaveAoFilme()
 
   const formularioFilme = document.getElementById("filme-form")
   const botaoCancelar = document.getElementById("botao-cancelar")
@@ -50,6 +66,13 @@ async function manipularSubmissaoFormulario(event) {
 
   if(!validarData(data)) {
     alert("Não é permitido o cadastro de datas futuras. Selecione outra data.")
+    return
+  }
+
+  const chaveNovoFilme = `${nome.trim().toLowerCase()}-${genero.trim().toLowerCase()}`
+
+  if(filmesSet.has(chaveNovoFilme)){
+    alert('Esse filme já existe')
     return
   }
 
