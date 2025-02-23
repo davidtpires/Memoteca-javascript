@@ -1,0 +1,247 @@
+{
+  "filmes": [
+    {
+      "id": "1001",
+      "favorito": false,
+      "nome": "O Iluminado",
+      "genero": "Terror",
+      "data": "2023-11-12T15:30:25.000Z"
+    },
+    {
+      "id": "1002",
+      "nome": "Forrest Gump: O Contador de Histórias",
+      "genero": "Drama",
+      "data": "2002-06-18"
+    },
+    {
+      "id": "1003",
+      "favorito": true,
+      "nome": "Matrix",
+      "genero": "Ficção Científica",
+      "data": "2021-03-25T14:50:55.000Z"
+    },
+    {
+      "id": "1004",
+      "favorito": false,
+      "nome": "Batman: O Cavaleiro das Trevas",
+      "genero": "Ação",
+      "data": "2020-10-05T10:21:30.000Z"
+    },
+    {
+      "id": "1005",
+      "favorito": false,
+      "nome": "Alien: Romulus",
+      "genero": "Ficção Científica",
+      "data": "2019-08-09T17:45:10.000Z"
+    },
+    {
+      "id": "1006",
+      "favorito": false,
+      "nome": "Clube da Luta",
+      "genero": "Drama",
+      "data": "2018-04-17T11:00:00.000Z"
+    },
+    {
+      "id": "1007",
+      "favorito": false,
+      "nome": "Pulp Fiction: Tempo de Violência",
+      "genero": "Crime",
+      "data": "2017-02-02T23:15:20.000Z"
+    },
+    {
+      "id": "1008",
+      "favorito": false,
+      "nome": "Interestelar",
+      "genero": "Ficção Científica",
+      "data": "2016-12-20T19:30:10.000Z"
+    },
+    {
+      "id": "1009",
+      "favorito": false,
+      "nome": "O Sexto Sentido",
+      "genero": "Suspense",
+      "data": "2015-09-15T09:45:30.000Z"
+    },
+    {
+      "id": "1010",
+      "favorito": false,
+      "nome": "A Origem",
+      "genero": "Ficção Científica",
+      "data": "2014-07-25T22:10:45.000Z"
+    },
+    {
+      "id": "1011",
+      "favorito": false,
+      "nome": "O Exorcista",
+      "genero": "Terror",
+      "data": "2013-05-13T16:00:00.000Z"
+    },
+    {
+      "id": "1012",
+      "favorito": false,
+      "nome": "Gladiador",
+      "genero": "Ação",
+      "data": "2012-03-22T14:22:30.000Z"
+    },
+    {
+      "id": "1013",
+      "favorito": false,
+      "nome": "Os Infiltrados",
+      "genero": "Crime",
+      "data": "2011-01-30T20:10:05.000Z"
+    },
+    {
+      "id": "1014",
+      "favorito": false,
+      "nome": "O Poderoso Chefão",
+      "genero": "Crime",
+      "data": "2010-10-12T18:35:25.000Z"
+    },
+    {
+      "id": "1015",
+      "favorito": false,
+      "nome": "O Poderoso Chefão II",
+      "genero": "Crime",
+      "data": "2009-07-18T11:50:40.000Z"
+    },
+    {
+      "id": "1016",
+      "favorito": false,
+      "nome": "Cidadão Kane",
+      "genero": "Drama",
+      "data": "2008-06-22T16:22:10.000Z"
+    },
+    {
+      "id": "1017",
+      "favorito": false,
+      "nome": "O Senhor dos Anéis: A Sociedade do Anel",
+      "genero": "Fantasia",
+      "data": "2007-05-10T17:30:55.000Z"
+    },
+    {
+      "id": "1018",
+      "favorito": false,
+      "nome": "O Senhor dos Anéis: As Duas Torres",
+      "genero": "Fantasia",
+      "data": "2006-04-15T14:15:40.000Z"
+    },
+    {
+      "id": "1019",
+      "favorito": false,
+      "nome": "O Senhor dos Anéis: O Retorno do Rei",
+      "genero": "Fantasia",
+      "data": "2005-03-20T13:05:25.000Z"
+    },
+    {
+      "id": "1020",
+      "favorito": false,
+      "nome": "Duna: Parte Dois",
+      "genero": "Ficção Científica",
+      "data": "2004-02-15T11:40:10.000Z"
+    },
+    {
+      "id": "1021",
+      "favorito": false,
+      "nome": "Vingadores: Ultimato",
+      "genero": "Ação",
+      "data": "2003-01-05T10:25:00.000Z"
+    },
+    {
+      "id": "1022",
+      "favorito": false,
+      "nome": "Coringa",
+      "genero": "Drama",
+      "data": "2002-12-12T08:10:50.000Z"
+    },
+    {
+      "id": "1023",
+      "favorito": false,
+      "nome": "Django Livre",
+      "genero": "Faroeste",
+      "data": "2001-11-22T07:30:05.000Z"
+    },
+    {
+      "id": "1024",
+      "favorito": false,
+      "nome": "Bastardos Inglórios",
+      "genero": "Guerra",
+      "data": "2000-10-01T06:45:30.000Z"
+    },
+    {
+      "id": "1025",
+      "favorito": false,
+      "nome": "Scarface",
+      "genero": "Crime",
+      "data": "1999-09-15T05:50:20.000Z"
+    },
+    {
+      "id": "1026",
+      "favorito": false,
+      "nome": "A Chegada",
+      "genero": "Ficção Científica",
+      "data": "1998-08-03T04:15:10.000Z"
+    },
+    {
+      "id": "1027",
+      "favorito": false,
+      "nome": "Mad Max: Estrada da Fúria",
+      "genero": "Ação",
+      "data": "1997-07-18T03:00:25.000Z"
+    },
+    {
+      "id": "1028",
+      "favorito": false,
+      "nome": "Homem-Aranha no Aranhaverso",
+      "genero": "Animação",
+      "data": "1996-06-12T01:50:35.000Z"
+    },
+    {
+      "id": "1029",
+      "favorito": false,
+      "nome": "Blade Runner 2049",
+      "genero": "Ficção Científica",
+      "data": "1995-05-25T00:40:15.000Z"
+    },
+    {
+      "id": "1030",
+      "favorito": false,
+      "nome": "Whiplash: Em Busca da Perfeição",
+      "genero": "Drama",
+      "data": "1994-04-20T23:10:55.000Z"
+    },
+    {
+      "id": "1031",
+      "favorito": false,
+      "nome": "A Vida é Bela",
+      "genero": "Drama",
+      "data": "1993-03-15T22:30:45.000Z"
+    },
+    {
+      "id": "1032",
+      "favorito": false,
+      "nome": "Corra!",
+      "genero": "Terror",
+      "data": "1992-02-25T21:20:30.000Z"
+    },
+    {
+      "id": "1033",
+      "favorito": false,
+      "nome": "Ilha do Medo",
+      "genero": "Suspense",
+      "data": "1991-01-10T20:25:00.000Z"
+    },
+    {
+      "id": "1034",
+      "favorito": false,
+      "nome": "O Grande Lebowski",
+      "genero": "Comédia",
+      "data": "1990-12-05T19:35:25.000Z"
+    },
+    {
+      "id": "88b6",
+      "nome": "teste",
+      "genero": "teste",
+      "data": "2025-02-21"
+    }
+  ]
+}
