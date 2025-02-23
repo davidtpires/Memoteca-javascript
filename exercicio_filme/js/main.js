@@ -1,6 +1,21 @@
 import ui from "./ui.js"
 import api from "./api.js"
 
+function removerEspacos(string) {
+  return string.replaceAll(/\s+/g, '')
+}
+
+const regexNome = /^[a-zA-Z0-9\s ]*$/;
+const regexGenero = /^[a-zA-Z\s ]*$/
+
+function validarNome(nome){
+  return regexNome.test(nome)
+}
+
+function validarGenero(genero) {
+  return regexGenero.test(genero)
+}
+
 document.addEventListener("DOMContentLoaded", () => {
   ui.renderizarFilmes()
 
@@ -20,8 +35,22 @@ async function manipularSubmissaoFormulario(event) {
   const genero = document.getElementById("filme-genero").value
   const data = document.getElementById("filme-data").value
 
+  const nomeSemEspacos = removerEspacos(nome)
+  const generoSemEpacos = removerEspacos(genero)
+
+  if(!validarNome(nomeSemEspacos)){
+    alert("Nome: É permitida a inclusão de letras e entre 3 e 15 caracteres sem espaços")
+    return
+  }
+
+  if(!validarGenero(generoSemEpacos)) {
+    alert("Genero: É permitida a inclusão apenas de letras e espaços com no mínimo 10 caracteres")
+    return
+  }
+
   if(!validarData(data)) {
     alert("Não é permitido o cadastro de datas futuras. Selecione outra data.")
+    return
   }
 
 

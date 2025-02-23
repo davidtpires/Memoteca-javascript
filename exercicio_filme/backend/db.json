@@ -242,6 +242,12 @@
       "nome": "teste",
       "genero": "teste",
       "data": "2025-02-21"
+    },
+    {
+      "id": "48a8",
+      "nome": "Homem Aranha",
+      "genero": "Ficação Cienfica",
+      "data": "2000-01-01T00:00:00.000Z"
     }
   ]
 }

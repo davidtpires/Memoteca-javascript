@@ -60,7 +60,8 @@ const ui = {
       timeZone: 'UTC'
     }
     const dataFormatada = filme.data.toLocaleDateString('pt-BR', options)
-    filmeData.textContent = dataFormatada
+    const dataComRegex = dataFormatada.replace(/^(\w)/, (match) => match.toUpperCase())
+    filmeData.textContent = dataComRegex
     filmeData.classList.add("filme-data")
 
     const botaoEditar = document.createElement("button")
